@@ -1,0 +1,87 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    background-image: url("https://www.vehicletracking.qa/wp-content/uploads/2018/02/semi-trailer-truck-image-e1519021679954.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color:white;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    font-weight: bold;
+  }
+  
+  /* Main styles */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: bottom;
+    padding: 1rem;
+  }
+  
